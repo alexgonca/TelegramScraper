@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# Download flatjsonl binary and unpack
+wget -q https://github.com/vearutop/flatjsonl/releases/latest/download/linux_amd64.tar.gz
+tar xf linux_amd64.tar.gz
+rm linux_amd64.tar.gz
